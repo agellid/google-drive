@@ -6,7 +6,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-import java.io.*;
 
 @SpringBootApplication
 @EnableBinding(KafkaProcessor.class)
